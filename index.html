@@ -30,7 +30,9 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <script>
-        window.dataLayer.push({event: "gtm.js", title: 'abc'});
+        $('button').on('click', function () { 
+            window.dataLayer.push({event: "gtm.js", title: 'abc'});
+        });
     </script>
 </body>
 </html>
